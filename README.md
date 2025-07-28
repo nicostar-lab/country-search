@@ -6,7 +6,7 @@ Une application web simple et esthétique qui permet à l'utilisateur de recherc
 - Le nombre d'habitants
 - Le drapeau
 
-![Preview](./assets/preview.png)
+![Preview](./preview.png)
 
 ## 🚀 Fonctionnalités
 
