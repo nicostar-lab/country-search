@@ -26,9 +26,6 @@ Une application web simple et esthétique qui permet à l'utilisateur de recherc
 1. Clone le dépôt :
    ```bash
    git clone https://github.com/nicostar-lab/country-search.git
-📷 Aperçu
-
-
 
 🤝 Contribution
 Les contributions sont les bienvenues !
