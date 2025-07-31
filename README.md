@@ -34,4 +34,4 @@ N'hésitez pas à forker le projet, proposer des améliorations ou signaler des 
 📄 Licence
 Ce projet est open-source et disponible sous la licence MIT.
 
-Auteur : [nicostar-lab]
+Auteur : [nicostar-lab](https://github.com/nicostar-lab)
