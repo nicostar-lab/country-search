@@ -6,7 +6,7 @@ Une application web simple et esthétique qui permet à l'utilisateur de recherc
 - Le nombre d'habitants
 - Le drapeau
 
-![Preview](./assets/preview.png)
+![Preview](./preview.png)
 
 ## 🚀 Fonctionnalités
 
@@ -34,4 +34,4 @@ N'hésitez pas à forker le projet, proposer des améliorations ou signaler des 
 📄 Licence
 Ce projet est open-source et disponible sous la licence MIT.
 
-Auteur : [nicostar-lab]
+Auteur : [nicostar-lab](https://github.com/nicostar-lab)
