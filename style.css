@@ -17,49 +17,51 @@ radial-gradient(at 17% 0%, hsla(289,45%,39%,1) 0px, transparent 50%);
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    padding: 20px;
+   
 }
 .container {
-    width: 800px;
-    height: 700px;
+    padding: 30px;
+    width: 400px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #07070728;
     backdrop-filter: blur(15px);
-    border-radius: 20px;
+    border-radius: 10px;
    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.582);
     
 }
 .info{
-    position: relative;
-    bottom: 10px;
+    gap: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 h1{
     font-size: 100px;
 }
 input{
-    height: 50px;
-    width: 400px;
+    height: 40px;
+    width: 100%;
     outline: none;
     border: none;
-    border-radius: 30px;
-    padding: 0 20px;
-    font-size: 18px;
-    margin-right: 20px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #fff;
     background-color: #0000002a;
     backdrop-filter: blur(10px);
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.582);
 }
 button{
-    height: 50px;
+    height: 40px;
+    
     border: none;
-    border-radius: 30px;
-    padding: 0 50px;
+    border-radius: 5px;
+    padding: 0 15px;
     cursor: pointer;
     background-color: #b514c4;
     color: #000;
@@ -67,7 +69,7 @@ button{
     font-size: 18px;
 }
 button:hover{
-    background-color: #c210aa;
+    background-color: #eba3e1;
 }
 .result {
     gap: 10px;
@@ -75,8 +77,12 @@ button:hover{
     flex-direction: column;
     
 }
+.result h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
 .result img{
-    width: 400px;
+    width: 300px;
 }
 .cercle {
     width: 700px;
@@ -89,11 +95,13 @@ button:hover{
 .cercle:nth-child(1) {
     top: -100px;
     left: 500px;
+    z-index: -1;
     
 }
 .cercle:nth-child(2) {
     bottom: -100px;
     right: 500px;
+    z-index: -1;
 }
 @keyframes moove {
     0% {
@@ -109,20 +117,20 @@ button:hover{
 @media screen and (max-width: 600px) {
     
     .container {
-        width: 100%;
-        height: 90%;
-        padding: 20px;
+        width: 80%;
+        
+       
     }
     .info {
-        bottom: 100px;
-    }
-    input {
-        width: calc(100% - 120px);
-        margin-right: 10px;
+        flex-direction: column;
+        align-items: center;
     }
     button {
-        width: 100px;
+        width: 100%;
+        margin-top: 10px;
+       
     }
+    
     .result img {
         width: 200px;
     }
